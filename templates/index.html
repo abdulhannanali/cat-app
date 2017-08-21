@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Cat App 🐱🐱🐱</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+            background-color: pink;
+            color: black;
+        }
+
+        .gif img {
+            background-color: white;
+            border: 3px solid greenyellow;
+            padding: 10px;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Cat Gifs! Built with ♥ only for you</h1>
+    <p>
+        Simple Cat Gifs project built to utilize the power of containers and
+        deployed using a very simple <a href="./DockerFile">DockerFile</a>. This was built using 
+        the instructions on <a href="http://training.play-with-docker.com/webapps/">Simple Web App</a> Tutorial 
+        
+        Check out <a href="http://training.play-with-docker.com">http://training.play-with-docker.com</a>
+    </p>
+    <div class="gif">
+        <img src="$1" alt="Gif about a Cat" class="img">
+        <p>Here's a <a href="$1" rel="noopener">gif</a></p>
+    </div>     
+</body>
+</html>
